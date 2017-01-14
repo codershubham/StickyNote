@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.shubham.navigate.DeleteNoteActivity"
+    android:background="#9fd6f5">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView1"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Notes"
+        android:onClick="deleteFile"
+        android:id="@+id/button1"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#8cc7e9" />
+
+</LinearLayout>
